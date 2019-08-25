@@ -24,13 +24,11 @@ public class A {
 	WebElement userName=driver.findElement(By.id("email"));
 	userName.sendKeys("paviperumal95@gmail.com");
 	
-	WebElement passWord = driver.findElement(By.id("pass"));
-	passWord.sendKeys("1234567890");
-	
+	driver.quit();
 	
 	
 		
-	driver.quit();
+
 		
 		
 		
